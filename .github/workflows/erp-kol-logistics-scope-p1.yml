@@ -51,3 +51,5 @@ jobs:
         run: php artisan test tests/Feature/Orders/KolLogisticsReadOnlyTest.php tests/Feature/Orders/KolOrderOwnerScopeTest.php tests/Feature/AppShellNavigationTest.php
       - name: No production assets or whitespace violations
         run: git diff --check origin/main...HEAD
+
+# Public UAT: trigger existing PR checks only; no deployment.

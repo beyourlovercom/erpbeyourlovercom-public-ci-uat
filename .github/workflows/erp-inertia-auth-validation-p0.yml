@@ -35,3 +35,5 @@ jobs:
         run: php artisan test tests/Feature/Auth/AuthAuditTest.php
       - name: Diff check
         run: git diff --check
+
+# Public UAT: trigger existing PR checks only; no deployment.

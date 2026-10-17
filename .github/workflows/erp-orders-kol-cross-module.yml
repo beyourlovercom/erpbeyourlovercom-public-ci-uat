@@ -53,3 +53,5 @@ jobs:
         run: php artisan test tests/Feature/Orders tests/Feature/Kol
       - name: Diff check
         run: git diff --check origin/main...HEAD
+
+# Public UAT: trigger existing PR checks only; no deployment.

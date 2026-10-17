@@ -38,3 +38,5 @@ jobs:
         run: |
           test ! -f .env
           test ! -e database/e2e.sqlite
+
+# Public UAT: trigger existing PR checks only; no deployment.

@@ -66,3 +66,5 @@ jobs:
           tests/Feature/SyncWorkspaceTest.php
           tests/Feature/Sync/WordPressConnectorReadOrchestrationTest.php
           tests/Unit/Sync/EmailTemplateSnapshotReaderTest.php
+
+# Public UAT: trigger existing PR checks only; no deployment.
