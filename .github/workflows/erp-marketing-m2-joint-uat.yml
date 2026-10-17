@@ -123,3 +123,5 @@ jobs:
           if test -f "$RUNNER_TEMP/m2-wp.pid"; then
             kill "$(cat "$RUNNER_TEMP/m2-wp.pid")" || true
           fi
+
+# Public UAT: trigger existing PR checks only; no deployment.
